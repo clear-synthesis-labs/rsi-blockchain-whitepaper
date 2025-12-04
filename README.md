@@ -1,7 +1,7 @@
 # RSI-Blockchain Whitepaper Series  
 *A Unified Cryptographic Framework for Safe Recursive Self-Improvement*  
 
-**Author:** clear-synthesis-labs  
+**Author:** Anonymous  
 **Status:** Public Research  
 **Updated:** 2025-12-05  
 
