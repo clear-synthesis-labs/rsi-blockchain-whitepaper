@@ -1,14 +1,29 @@
-📘 RSI-Blockchain Whitepaper — Formal Specification v1
+# RSI-Blockchain: A Cryptographic Framework for Safe Recursive Self-Improvement
 
-A unified cryptographic & mathematical framework for safe
-Recursive Self-Improvement (RSI) systems, extending Bitcoin’s
-Proof-of-Work into a hybrid consensus model with:
+This repository contains an early-stage research draft proposing a
+cryptographic architecture for **safe recursive self-improvement (RSI)** in artificial intelligence.
 
-PoL — Proof-of-Learning
+The core idea:
+- **Proof-of-Learning (PoL)**: A verifiable cryptographic proof that a model update followed an allowed training process.
+- **Difficulty Enforcement**: A Bitcoin-style computational cost to prevent uncontrolled or excessively rapid self-improvement.
+- **Public Verifiability**: Every update is transparent, auditable, and tamper-resistant.
 
-Ethical Gradient (UCM-2026β)
+## Contents
+- `rsi-blockchain-whitepaper.md` — Full technical draft  
+- Future folders (`/spec`, `/code`) will include:
+  - PoL prototype designs
+  - Difficulty adjustment functions
+  - Validation logic
+  - Reference implementations
 
-Difficulty as Safety Metric
+## Status
+This is an **open research proposal**, not a finalized specification.
+Feedback and formal critique are welcome.
 
-Full paper:
-rsi-blockchain-whitepaper.md（soon）
+## License
+MIT License (recommended for public scientific drafts).
+
+## Disclaimer
+This project is *not* an endorsement of deploying self-improving AI systems.
+The goal is to explore technical mechanisms for **verifiability**, **auditability**,  
+and **controlled improvement**, inspired by cryptographic systems such as Bitcoin.
