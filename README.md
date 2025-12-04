@@ -62,8 +62,6 @@ Nodes accept a block only if:
 ├─ /code # (Planned) PoL prototype, simulators
 └─ /examples # (Planned) block format examples
 
-yaml
-コードをコピーする
 
 ---
 
