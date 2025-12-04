@@ -1,7 +1,7 @@
 # RSI-Blockchain: A Unified Cryptographic Framework for Safe Recursive Self-Improvement  
 **Version:** 1.0  
 **Status:** Research Draft (Public)  
-**Author:** clear-synthesis-labs  
+**Author:** Anonymous  
 **Date:** 2025-12-05  
 
 ---
