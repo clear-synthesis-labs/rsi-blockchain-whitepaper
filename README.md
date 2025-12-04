@@ -1,29 +1,77 @@
-# RSI-Blockchain: A Cryptographic Framework for Safe Recursive Self-Improvement
+# RSI-Blockchain: A Cryptographic Architecture for Safe Recursive Self-Improvement
 
-This repository contains an early-stage research draft proposing a
-cryptographic architecture for **safe recursive self-improvement (RSI)** in artificial intelligence.
+**Version:** 1.0  
+**Status:** Early Research Draft  
+**Author:** clear-synthesis-labs  
 
-The core idea:
-- **Proof-of-Learning (PoL)**: A verifiable cryptographic proof that a model update followed an allowed training process.
-- **Difficulty Enforcement**: A Bitcoin-style computational cost to prevent uncontrolled or excessively rapid self-improvement.
-- **Public Verifiability**: Every update is transparent, auditable, and tamper-resistant.
+---
 
-## Contents
-- `rsi-blockchain-whitepaper.md` — Full technical draft  
-- Future folders (`/spec`, `/code`) will include:
-  - PoL prototype designs
-  - Difficulty adjustment functions
-  - Validation logic
-  - Reference implementations
+## Overview
+RSI-Blockchain is a proposed framework that combines **Bitcoin-style Proof-of-Work**,  
+**zero-knowledge Proof-of-Learning (PoL)**, and **auditable model-state transitions**  
+to enable **safe recursive self-improvement (RSI)** in advanced AI systems.
+
+Modern AI systems can rapidly update themselves. Without transparency or verification,  
+this creates risks: uncontrolled capability growth, hidden behavioral changes,  
+or adversarial fine-tuning.  
+RSI-Blockchain aims to solve this by enforcing:
+
+- **Verifiable learning steps (PoL)**
+- **Tamper-proof model state transitions**
+- **External difficulty limits on improvement speed**
+- **Public auditability and consensus verification**
+
+---
+
+## Core Concepts
+
+### 🔹 1. Proof-of-Learning (PoL)
+A zero-knowledge proof that a model update was:
+- computed correctly,
+- applied to committed data,
+- and followed an allowed training rule.
+
+PoL makes learning *auditable*.
+
+### 🔹 2. Difficulty Enforcement
+A Bitcoin-like difficulty target adds:
+- computational cost to each self-improvement step,
+- rate-limiting,
+- and protection against uncontrolled growth.
+
+### 🔹 3. Consensus Validation
+Each block contains:
+- model state hash  
+- PoL  
+- difficulty  
+- ethical constraint vector (optional module)
+
+Nodes accept a block only if:
+- PoL verifies,
+- difficulty target is met,
+- model transition is valid.
+
+---
+
+## Repository Structure
+
+/
+├─ rsi-blockchain-whitepaper.md # Full technical draft
+├─ README.md # This file
+├─ /spec # (Planned) formal specifications
+├─ /code # (Planned) PoL prototype, simulators
+└─ /examples # (Planned) block format examples
+
+yaml
+コードをコピーする
+
+---
 
 ## Status
-This is an **open research proposal**, not a finalized specification.
-Feedback and formal critique are welcome.
+This project is an **open, early-stage conceptual proposal**.  
+It is *not* production-ready and should be treated as research material.
+
+---
 
 ## License
-MIT License (recommended for public scientific drafts).
-
-## Disclaimer
-This project is *not* an endorsement of deploying self-improving AI systems.
-The goal is to explore technical mechanisms for **verifiability**, **auditability**,  
-and **controlled improvement**, inspired by cryptographic systems such as Bitcoin.
+MIT License.
